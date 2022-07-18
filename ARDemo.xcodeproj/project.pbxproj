@@ -60,10 +60,10 @@
 				C4E0EB00286E380B0089200D /* AppDelegate.swift */,
 				C4E0EB04286E380B0089200D /* ViewController.swift */,
 				C4F0AC592885A1E2007A1222 /* SCNNodeEX.swift */,
+				C4F0AC572885A189007A1222 /* UIImageEX.swift */,
 				C4E0EB06286E380B0089200D /* Main.storyboard */,
 				C4E0EB09286E380D0089200D /* Assets.xcassets */,
 				C4E0EB0B286E380D0089200D /* LaunchScreen.storyboard */,
-				C4F0AC572885A189007A1222 /* UIImageEX.swift */,
 			);
 			path = ARDemo;
 			sourceTree = "<group>";

@@ -8,21 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		C4E0EB01286E380B0089200D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E0EB00286E380B0089200D /* AppDelegate.swift */; };
-		C4E0EB03286E380B0089200D /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = C4E0EB02286E380B0089200D /* art.scnassets */; };
 		C4E0EB05286E380B0089200D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E0EB04286E380B0089200D /* ViewController.swift */; };
 		C4E0EB08286E380B0089200D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E0EB06286E380B0089200D /* Main.storyboard */; };
 		C4E0EB0A286E380D0089200D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4E0EB09286E380D0089200D /* Assets.xcassets */; };
 		C4E0EB0D286E380D0089200D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E0EB0B286E380D0089200D /* LaunchScreen.storyboard */; };
+		C4F0AC582885A189007A1222 /* UIImageEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F0AC572885A189007A1222 /* UIImageEX.swift */; };
+		C4F0AC5A2885A1E2007A1222 /* SCNNodeEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F0AC592885A1E2007A1222 /* SCNNodeEX.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C4E0EAFD286E380B0089200D /* ARDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4E0EB00286E380B0089200D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C4E0EB02286E380B0089200D /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		C4E0EB04286E380B0089200D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C4E0EB07286E380B0089200D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C4E0EB09286E380D0089200D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4E0EB0C286E380D0089200D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C4F0AC572885A189007A1222 /* UIImageEX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageEX.swift; sourceTree = "<group>"; };
+		C4F0AC592885A1E2007A1222 /* SCNNodeEX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCNNodeEX.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,11 +58,12 @@
 			isa = PBXGroup;
 			children = (
 				C4E0EB00286E380B0089200D /* AppDelegate.swift */,
-				C4E0EB02286E380B0089200D /* art.scnassets */,
 				C4E0EB04286E380B0089200D /* ViewController.swift */,
+				C4F0AC592885A1E2007A1222 /* SCNNodeEX.swift */,
 				C4E0EB06286E380B0089200D /* Main.storyboard */,
 				C4E0EB09286E380D0089200D /* Assets.xcassets */,
 				C4E0EB0B286E380D0089200D /* LaunchScreen.storyboard */,
+				C4F0AC572885A189007A1222 /* UIImageEX.swift */,
 			);
 			path = ARDemo;
 			sourceTree = "<group>";
@@ -123,7 +126,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4E0EB03286E380B0089200D /* art.scnassets in Resources */,
 				C4E0EB0D286E380D0089200D /* LaunchScreen.storyboard in Resources */,
 				C4E0EB0A286E380D0089200D /* Assets.xcassets in Resources */,
 				C4E0EB08286E380B0089200D /* Main.storyboard in Resources */,
@@ -137,6 +139,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4F0AC582885A189007A1222 /* UIImageEX.swift in Sources */,
+				C4F0AC5A2885A1E2007A1222 /* SCNNodeEX.swift in Sources */,
 				C4E0EB05286E380B0089200D /* ViewController.swift in Sources */,
 				C4E0EB01286E380B0089200D /* AppDelegate.swift in Sources */,
 			);
@@ -287,6 +291,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6DBD85X642;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -316,6 +321,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6DBD85X642;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
